@@ -1,0 +1,98 @@
+
+body {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 200;
+}
+
+.centerMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBtns {
+  font-family: 'Montserrat';
+  font-variant: small-caps;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: var(--bs-gray);
+  color: white;
+  width: 25%;
+  height: auto;
+}
+
+#theoBtn {
+  background-color: #993366;
+  font-size: 23px;
+}
+
+#rectangle {
+
+}
+
+#mainPickerElemenet {
+  padding-top: 50px;
+  align-items: center;
+}
+
+.colorPickers {
+  position: absolute;
+  visibility: show;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+
+#mono {
+  visibility: show;
+}
+
+#iconSelects {
+  position: absolute;
+  visibility: show;
+  bottom: 147px;
+  opacity: 60%;
+}
+
+
+}
+#iconSelect1 {
+  left: 10px;
+}
+#iconSelect2 {
+  left:15px;
+}
+#iconSelect3 {
+  left:20px;
+}
+#iconSelect4 {
+  right:10px;
+}
+#iconSelect5 {
+  right:15px;
+}
+#iconSelect6 {
+  right:20px;
+}
+
+#iconSelect1:hover{
+  opacity: 100%;
+}
+#iconSelect2:hover{
+  opacity: 100%;
+}
+#iconSelect3:hover{
+  opacity: 100%;
+}
+#iconSelect4:hover{
+  opacity: 100%;
+}
+#iconSelect5:hover{
+  opacity: 100%;
+}
+#iconSelect6:hover{
+  opacity: 100%;
+}
